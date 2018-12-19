@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TCARI Makan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navbar">
+		<a href="index.html" class="logo font1"><b class="font2">TCARI</b> Makan</a>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body center">
+					<button type="button" class="close" onclick="window.location.href='menu.html'">&times;</button>
+					<p class="font2" style="color:#2D2D2C; font-size: 18px;">Pesanan dicancel</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="col-md-12 badan">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div class="col-md-12"	>
+				<p class="font2 judul2">History Pemesanan</p>
+			</div>
+			<div class="col-md-12 garis2"></div>
+			<div class="col-md-12" style="padding-left: 3%; padding-right: 3%">
+				<div class="col-md-12 garisBawah">
+					<div class="col-md-6">
+						<p class="font2" style="font-size: 16px">MekDonal's Keputih</p>
+						<p class="font1" style="margin-top: -1%">Jl Arief Rahman Hakim No.57</p>
+					</div>
+					<div class="col-md-2">
+						<p class="font2" style="font-size: 25px">Rp 15.000</p>
+					</div>
+					<div class="col-md-3" style="text-align:right">
+						<p class="font1" style="font-size: 20px">Pending <span class="glyphicon glyphicon-refresh"></span></p>
+					</div>
+					<div class="col-md-1">
+						<p class="font1" style="font-size: 25px; text-align:right"><a style="color:#F2B92A" data-toggle="modal" data-target="#myModal" id="batal"><span class="glyphicon glyphicon-remove"></span></a></p>
+					</div>
+				</div>
+				<div class="col-md-12 garisBawah">
+					<div class="col-md-6">
+						<p class="font2" style="font-size: 16px">IBK Keputih</p>
+						<p class="font1" style="margin-top: -1%">Jl Arief Rahman Hakim No.99</p>
+					</div>
+					<div class="col-md-2">
+						<p class="font2" style="font-size: 25px">Rp 9.000</p>
+					</div>
+					<div class="col-md-3" style="text-align:right">
+						<p class="font1" style="font-size: 20px">Completed <span class="glyphicon glyphicon-ok"></span></p>
+					</div>
+				</div>
+				<div class="col-md-12 garisBawah">
+					<div class="col-md-6">
+						<p class="font2" style="font-size: 16px">Depot Mantab</p>
+						<p class="font1" style="margin-top: -1%">Jl Arief Rahman Hakim No.6</p>
+					</div>
+					<div class="col-md-2">
+						<p class="font2" style="font-size: 25px">Rp 25.000</p>
+					</div>
+					<div class="col-md-3" style="text-align:right">
+						<p class="font1" style="font-size: 20px">Canceled <span class="glyphicon glyphicon-remove"></span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 center">
+				<p style="margin-top: -1vw;"><a class="button tombol font2 jarak" href="menu.html">Back</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+// <script type="text/javascript">
+// 	$(document).ready(function(){
+// 		var startButton = document.getElementById("batal");
+// 		startButton.onclick = setInterval(function(){window.location = "menu.html";},3000);
+// 	})
+// </script>
+</html>
